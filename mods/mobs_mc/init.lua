@@ -43,10 +43,13 @@ dofile(path .. "/chicken.lua") -- Mesh and animation by Pavel_S
 dofile(path .. "/pig.lua") -- Mesh and animation by Pavel_S
 dofile(path .. "/sheep.lua") -- Mesh and animation by Pavel_S
 dofile(path .. "/wolf.lua") -- KrupnoPavel
+dofile(path .. "/cow+mooshroom.lua") -- Mesh by Morn76 Animation by Pavel_S
 
 --Monsters
 dofile(path .. "/creeper.lua") -- Mesh by Morn76 Animation by Pavel_S
 dofile(path .. "/spider.lua") -- Spider by AspireMint (fishyWET (CC-BY-SA 3.0 license for texture)
+dofile(path .. "/zombie.lua") -- Mesh by Morn76 Animation by Pavel_S
+dofile(path .. "/skeleton+stray.lua") -- Mesh by Morn76 Animation by Pavel_S
 
 --NOTES:
 --

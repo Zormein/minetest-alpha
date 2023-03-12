@@ -425,6 +425,8 @@ entity/pig/pig.png mobs_mc_pig.png
 entity/sheep/sheep.png mobs_mc_sheep.png
 entity/sheep/sheep_fur.png mobs_mc_sheep_fur.png
 entity/spider/spider.png mobs_mc_spider.png
+entity/zombie/zombie.png mobs_mc_zombie.png
+entity/skeleton/skeleton.png mobs_mc_skeleton.png
 RENAMES
 ) |		while read IN OUT FLAG; do
 			echo -e "." >> _n/_tot

@@ -1,6 +1,6 @@
 # Minetest Alpha
 
-A game based off Minetest Game made to be like old Minecraft
+A game based on Minetest Game to recreate the experience of old minecraft
 
 ## Installation
 

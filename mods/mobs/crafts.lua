@@ -37,23 +37,6 @@ minetest.register_craft({
 	}
 })
 
--- saddle
-minetest.register_craftitem("mobs:saddle", {
-	description = S("Saddle"),
-	inventory_image = "mobs_saddle.png",
-	groups = {flammable = 2, saddle = 1}
-})
-
-minetest.register_craft({
-	output = "mobs:saddle",
-	recipe = {
-		{"mobs:leather", "mobs:leather", "mobs:leather"},
-		{"mobs:leather", "default:steel_ingot", "mobs:leather"},
-		{"mobs:leather", "default:steel_ingot", "mobs:leather"}
-	}
-})
-
-
 -- make sure we can register fences
 local mod_def = minetest.get_modpath("default")
 
@@ -118,12 +101,6 @@ minetest.register_craft({
 	type = "fuel",
 	recipe = "mobs:leather",
 	burntime = 4
-})
-
-minetest.register_craft({
-	type = "fuel",
-	recipe = "mobs:saddle",
-	burntime = 7
 })
 
 minetest.register_craft({
