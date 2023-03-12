@@ -40,7 +40,6 @@ dofile(path .. "/4_heads.lua")
 
 -- Animals
 dofile(path .. "/chicken.lua") -- Mesh and animation by Pavel_S
-dofile(path .. "/horse.lua") -- KrupnoPavel; Mesh and animation by toby109tt  / https://github.com/22i
 dofile(path .. "/pig.lua") -- Mesh and animation by Pavel_S
 dofile(path .. "/sheep.lua") -- Mesh and animation by Pavel_S
 dofile(path .. "/wolf.lua") -- KrupnoPavel

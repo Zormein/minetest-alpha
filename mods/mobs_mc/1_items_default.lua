@@ -23,43 +23,6 @@ if c("feather") then
 	})
 end
 
--- Cow Milk
-
-if c("milk") then
-	-- milk
-	minetest.register_craftitem("mobs_mc:milk_bucket", {
-		description = S("Milk"),
-		_doc_items_longdesc = S("Milk is a food item obtained by using a bucket on a cow."),
-		inventory_image = "mobs_bucket_milk.png",
-		groups = { food = 3, eatable = 1 },
-		on_use = minetest.item_eat(1, "bucket:bucket_empty"),
-		stack_max = 1,
-	})
-end
-
--- Saddle
-if c("saddle") then
-	-- Overwrite the saddle from Mobs Redo
-	minetest.register_craftitem(":mobs:saddle", {
-		description = S("Saddle"),
-		_doc_items_longdesc = S("Saddles can be put on horses, donkeys, mules and pigs in order to mount them."),
-		_doc_items_usagehelp = S("Rightclick an animal while holding a saddle to put on the saddle. You can now mount the animal by rightclicking it again."),
-		inventory_image = "mcl_mobitems_saddle.png",
-		stack_max = 1,
-	})
-end
-
-if c("saddle") and c("lether") and c("string") and c("iron_ingot") then
-	minetest.register_craft({
-		output = "mobs_mc:saddle",
-		recipe = {
-			{"mobs:leather", "mobs:leather", "mobs:leather"},
-			{"farming:string", "", "farming:string"},
-			{"default:steel_ingot", "", "default:steel_ingot"}
-		},
-	})
-end
-
 -- Pig
 if c("porkchop_raw") then
 	minetest.register_craftitem("mobs_mc:porkchop_raw", {
@@ -87,19 +50,6 @@ if c("porkchop_raw") and c("porkchop_cooked") then
 		output = "mobs_mc:porkchop_cooked",
 		recipe = "mobs_mc:porkchop_raw",
 		cooktime = 5,
-	})
-end
-
--- Spider
-if c("spider_eye") then
-	minetest.register_craftitem("mobs_mc:spider_eye", {
-		description = S("Spider Eye"),
-		_doc_items_longdesc = S("Spider eyes are used mainly in crafting and brewing. Spider eyes can be eaten, but they poison you and reduce your health by 2 hit points."),
-		inventory_image = "mcl_mobitems_spider_eye.png",
-		wield_image = "mcl_mobitems_spider_eye.png",
-		-- Simplified poisonous food
-		groups = { food = 2, eatable = -2 },
-		on_use = minetest.item_eat(-2),
 	})
 end
 

@@ -58,4 +58,3 @@ end
 addhead("zombie", S("Zombie Head"), S("A zombie head is a small decorative block which resembles the head of a zombie."))
 addhead("creeper", S("Creeper Head"), S("A creeper head is a small decorative block which resembles the head of a creeper."))
 addhead("skeleton", S("Skeleton Skull"), S("A skeleton skull is a small decorative block which resembles the skull of a skeleton."))
-addhead("wither_skeleton", S("Wither Skeleton Skull"), S("A wither skeleton skull is a small decorative block which resembles the skull of a wither skeleton."))
