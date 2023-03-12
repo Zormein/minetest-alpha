@@ -427,6 +427,10 @@ entity/sheep/sheep_fur.png mobs_mc_sheep_fur.png
 entity/spider/spider.png mobs_mc_spider.png
 entity/zombie/zombie.png mobs_mc_zombie.png
 entity/skeleton/skeleton.png mobs_mc_skeleton.png
+entity/cow/cow.png mobs_mc_cow.png
+item/bowl.png mcl_core_bowl.png
+item/mushroom_stew.png farming_mushroom_stew.png
+item/milk_bucket.png mobs_bucket_milk.png
 RENAMES
 ) |		while read IN OUT FLAG; do
 			echo -e "." >> _n/_tot
